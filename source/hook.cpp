@@ -24,8 +24,8 @@ GNU General Public License for more details.
 // Declare static variables (global to only this file/module, i.e. no external linkage):
 static HANDLE sKeybdMutex = NULL;
 static HANDLE sMouseMutex = NULL;
-#define KEYBD_MUTEX_NAME _T("AHK Keybd")
-#define MOUSE_MUTEX_NAME _T("AHK Mouse")
+#define KEYBD_MUTEX_NAME _T("Swift Keybd")
+#define MOUSE_MUTEX_NAME _T("Swift Mouse")
 
 #ifndef MINIDLL
 // Whether to disguise the next up-event for lwin/rwin to suppress Start Menu.
